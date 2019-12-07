@@ -56,6 +56,7 @@
     "bignum": "*",
     "morgan": "*",
     "bitcore": "git://github.com/bitpay/bitcore.git#6bbb34b0b575fad50babd230270749371a34f88b",
+    "bitcoind-rpc": ""git://github.com/bitpay/bitcoind-rpc.git",",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",

@@ -3,7 +3,7 @@
 
 var async     = require('async');
 var bitcore   = require('bitcore');
-var RpcClient = bitcore.RpcClient;
+var RpcClient = require('bitcoind-rpc');
 var config    = require('../../config/config');
 var rpc       = new RpcClient(config.bitcoind);
 var bDb       = require('../../lib/BlockDb').default();
@@ -14,7 +14,7 @@ Status.prototype.getInfo = function(next) {
   var that = this;
   async.series([
     function (cb) {
-      rpc.getInfo(function(err, info){
+      rpc.getBlockchainInfo(function(err, info){
         if (err) return cb(err);
 
         that.info = info.result;
