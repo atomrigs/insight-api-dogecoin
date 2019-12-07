@@ -64,7 +64,7 @@
     "express": "~3.4.7",
     "glob": "*",
     "leveldown": "^5.1.1",
-    "levelup": "~^4.1.0",
+    "levelup": "^4.1.0",
     "lodash": "^2.4.1",
     "microtime": "^3.0.0",
     "mkdirp": "^0.5.0",
