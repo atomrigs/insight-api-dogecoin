@@ -63,10 +63,10 @@
     "cron": "^1.0.4",
     "express": "~3.4.7",
     "glob": "*",
-    "leveldown": "~0.10.0",
-    "levelup": "~0.19.0",
+    "leveldown": "^5.1.1",
+    "levelup": "~^4.1.0",
     "lodash": "^2.4.1",
-    "microtime": "^0.6.0",
+    "microtime": "^3.0.0",
     "mkdirp": "^0.5.0",
     "moment": "~2.5.0",
     "preconditions": "^1.0.7",
@@ -74,7 +74,7 @@
     "socket.io": "1.0.6",
     "socket.io-client": "1.0.6",
     "soop": "=0.1.5",
-    "winston": "*",
+    "winston": "0.5.7",
     "xmlhttprequest": "~1.6.0"
   },
   "devDependencies": {
