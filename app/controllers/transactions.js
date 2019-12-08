@@ -12,7 +12,7 @@ var Rpc         = require('../../lib/Rpc');
 
 var imports     = require('soop').imports();
 var bitcore     = require('bitcore');
-var RpcClient   = bitcore.RpcClient;
+var RpcClient   = require('bitcoind-rpc');
 var config      = require('../../config/config');
 var bitcoreRpc  = imports.bitcoreRpc || new RpcClient(config.bitcoind);
 
