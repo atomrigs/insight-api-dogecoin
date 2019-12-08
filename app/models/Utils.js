@@ -4,7 +4,7 @@ var _ = require('lodash');
 var async = require('async');
 
 var bitcore = require('bitcore');
-var RpcClient = requrie('bitcored-rpc');
+var RpcClient = require('bitcored-rpc');
 var config = require('../../config/config');
 var rpc = new RpcClient(config.bitcoind);
 
